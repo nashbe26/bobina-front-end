@@ -1,0 +1,32 @@
+.profile-text-sign{
+    font-size: 18px;
+    font-family: mainFontBlack;
+    color: var(--color-first);
+    line-height: 150%;
+    text-align: left;
+}
+.under-text-sign{
+    font-size: 16px;
+    color: var(--color-first);
+    line-height: 150%;
+    text-align: left;
+}
+.text-account-about{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: mainFontBlack;
+    color: var(--color-second);
+}
+.seperator-box{
+    background-color:#0e243a42;
+    height: 1px;
+    width: 100%;
+}
+.card-sign-up {
+    height: 100%;
+    margin-bottom: 4rem;
+}
+#msg-err{
+    font-size: 14px;
+    color: rgb(240, 74, 74);
+}

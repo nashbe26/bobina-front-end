@@ -1,0 +1,149 @@
+.user-setting-name{
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 119.5%;
+/* or 38px */
+
+margin: 1.5rem 0;
+
+color: #FFFFFF;
+}
+.user-setting-email{
+    font-size: 16px;
+    line-height: 32px;    
+    color: #FFFFFF;
+    margin: 1.5rem 0;
+}
+.user-setting-email{
+    margin: 1.5rem 0;
+}
+.edit-profile-btn{
+    background: #0E243A;
+    border-radius: 12px;
+    color: white;
+    padding:0.5rem 2.4rem ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #288D69;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #288D69;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.card-green-user-data{
+    background: linear-gradient(162.86deg, #0E243A -50.07%, #288D69 105.75%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(62.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    width: 35%;
+    height: 90vh;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.width-profile-text-container-settings{
+    display: flex;
+}
+.user-text-profile-te-set{
+    
+background: rgba(40, 141, 105, 0.08);
+border-radius: 7px;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+padding: 0.75rem 1.75rem;
+color: #288D69;
+
+}
+.desc-settings-el{
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #393E43;
+}
+.data-about-user-settings{
+    margin: 1.5rem 0;
+}
+.card-grey-user-data{
+    width: 65%;
+}
+.profile-card-image{
+    width: fit-content;
+    margin-bottom: 2.5rem;
+}
+.data-settigns-el{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    
+    /* blue */
+    color: #0E243A;
+}
+.box-sep-settings{
+    height: 1px;
+    background-color: #E2E4E8;
+    width: 100%;
+}
+.card-grey-user-data{
+    padding: 3rem;
+
+
+}

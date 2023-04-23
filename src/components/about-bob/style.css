@@ -1,0 +1,47 @@
+.card-blue-about{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E243A;
+    padding: 2rem;
+    box-shadow: 0px 20px 30px rgba(14, 36, 58, 0.1);
+    border-radius: 7px;
+}
+.text-main-title-text-bo{
+    font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+padding-bottom: 0.5rem;
+
+color: #FFFFFF;
+}
+.text-sec-about-bo{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+.img-relative-ab{
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    z-index: -1;
+}
+.about-main-bo{
+    font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+letter-spacing: -0.827586px;
+font-weight: 700;
+
+color: #1D293F;
+}
+.desc-about-text-bo{
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    width: 45%;
+    color: #0E243A;
+}

@@ -1,0 +1,94 @@
+.title-milestone-sec{
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.milestone-sec{
+    position: relative;
+    padding:5rem 0 8rem 0;
+}
+.title-work-milestone{
+    font-size: 48px;
+    line-height: 56px;
+    font-family: mainFontBlack;
+
+    text-align: center;
+
+    color: #1D293F;
+}
+.sec-milestone-text{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #7C8087;
+}
+
+.progbar{
+    position: relative;
+}
+
+.in-progbar-sec-sec{
+    position: absolute;
+    top: 8%;
+    right: -3%;
+}
+.pos-tri-fifth{
+    position: absolute;
+    left: 0;
+    top: -25%;
+}
+.pourcentage-text{
+    font-size: 56px;
+    line-height: 56px;
+    /* identical to box height, or 102% */
+
+    text-align: center;
+    letter-spacing: -0.827586px;
+
+    color: #288D69;
+    font-family: mainFontBlack;
+}
+.pourcentage-desc{
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #288D69;
+}
+.pourcentage-who-text{
+    font-size: 22px;
+line-height: 32px;
+/* or 145% */
+
+text-align: center;
+
+color: #7C8087;
+}
+.title-milestone-sec{
+    display:block;
+}
+.title-milestone-sec-mb{
+    display: none;
+}
+@media (max-width: 992px) {
+    .title-milestone-sec{
+        display:none;
+    }
+    .title-milestone-sec-mb{
+        display: block;
+    }
+    .box-container-mile{
+        width: 95%;
+
+    }
+    .title-work-milestone {
+        font-size: 30px;
+        line-height: 48px;
+        font-family: mainFontBlack;
+        text-align: center;
+        color: #1D293F;
+    }
+
+}

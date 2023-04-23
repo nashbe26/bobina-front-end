@@ -1,0 +1,192 @@
+.background-green{
+    
+    background: rgba(57, 181, 74, 0.1);
+    width: 100%;
+    height: 100%;
+
+}
+
+.cotnainer-aboutus{
+    width: 50%;
+
+}
+.box-blue-dark-text{
+    width: 100%;
+    background: #0E243A;
+    box-shadow: 0px 4px 17px rgba(40, 141, 105, 0.35);
+    border-radius: 7px;
+    padding: 0.65rem 2rem;
+}
+.text-inside-box-rect{
+    color: white;
+    margin-left: 1rem;
+}
+.aboutus-sec{
+    background: rgba(57, 181, 74, 0.1);
+    position: relative;
+    margin: 6rem 0;
+    padding: 2rem 0;
+}
+.groups-dots{
+    position: absolute;
+    top: -6%;
+    left: 10%;
+}
+.about-box-container{
+    width: 45%;
+}
+#about-text{
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #1D293F;
+    font-family: mainFontBlack;
+}
+.cotnainer-aboutus{
+    margin: 3rem 0;
+}
+.about-box-container{
+    margin: 2.5rem 0;
+}
+#size-compagnie{
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    text-align: center;
+
+    color: #7C8087;
+}
+.btn-play-video{
+
+    border-radius: 12px;
+    background: var(--color-second);
+    width: 30%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#about-us-text-sec{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: mainFontBlack;
+    color: #0E243A;
+}
+#pos-aboutme-text{
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #393E43;
+}
+.pos-about-feed{
+    display: flex;
+    justify-content: center;
+}
+.box-green-about{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(57, 181, 74, 0.1);
+    border-radius: 10px;
+}
+.card-aboutus{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(14, 36, 58, 0.1);
+    border-radius: 10px;
+    padding: 35px;
+    margin-bottom: 1rem;
+}
+.box-card-about{
+    width: 85%;
+}
+.green-back-sec{
+    display: block;
+}
+.green-back-sec-mb{
+    display: none;
+}
+@media (max-width: 991px) {
+    .aboutus-sec {
+
+        margin-top: 6rem;
+    }
+    .pos-about-feed{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .green-back-sec{
+        display: none;
+    }
+    .green-back-sec-mb{
+        display: block;
+        margin-top: 2rem;
+    }
+    .box-card-about {
+        width: 95%;
+    }
+    .card-aboutus {
+  
+        padding: 20px;
+      
+    }
+    #about-us-text-sec {
+        font-size: 18px;
+        line-height: 25px;
+        font-family: mainFontBlack;
+        color: #0E243A;
+        padding-top: 15px;
+    }
+    #pos-aboutme-text {
+        font-size: 12px;
+        line-height: 150%;
+        color: #393E43;
+        padding-top: 15px;
+    }
+    .cotnainer-aboutus {
+        width: 95%;
+        margin:0;
+        margin-top: 3rem;
+    }
+    .about-box-container{
+        margin:0;
+    }
+    .about-box-container{
+        width: 95%;
+    }
+    #about-text{
+        font-size: 32px;
+  
+    }
+    #size-compagnie{
+        font-size: 14px;
+        line-height: 18px;
+        /* or 178% */
+    
+        text-align: center;
+    
+        color: #7C8087;
+    }
+    .btn-play-video {
+        background: #288D69;
+        border-radius: 12px;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        outline: none;
+        width: 55%;
+    
+    }
+    .groups-dots {
+        position: absolute;
+        top: -12%;
+        left: 0%;
+        transform: rotate(90deg);
+    }
+}

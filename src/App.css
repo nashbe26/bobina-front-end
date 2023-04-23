@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+:root{
+  --color-first:#0E243A;
+  --color-second:#288D69;
+  --color-third:#D1F5D6;
+  --color-fourth:#fff
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +17,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
 
+ol, ul {
+  padding-left: 0;
+}
+
+.img-full-page{
+  width: 100%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

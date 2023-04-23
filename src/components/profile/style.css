@@ -1,0 +1,18 @@
+.text-profile-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.width-profile-text-container{
+    width: 100%;
+}
+.profile-container-box{
+    margin: 3rem 3rem 0 3rem;
+}
+@media (max-width: 992px) {
+    .profile-container-box{
+        margin: .5rem .5rem 1rem .5rem;
+    }
+    
+}

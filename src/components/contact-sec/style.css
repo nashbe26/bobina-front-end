@@ -1,0 +1,67 @@
+.contact-bg-sec{
+    background: url('../../../public/img/bg.png');
+    height: 646px;
+    background-size: cover;
+}
+.title-contact-sec{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title-contact-main{
+    font-size: 58px;
+    line-height: 64px;
+    /* or 110% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #FFFFFF;
+    font-family: mainFontBlack;
+    }
+    .sec-contact-text{
+        font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.d-contact{
+display: block;
+}
+.d-contact-md{
+display: none;
+}
+@media (max-width: 991px) {
+    .contact-bg-sec {
+
+        background-position-x: center;
+    }
+    .title-contact-main{
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0 20px;
+    }
+    .title-contact-main {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .d-contact{
+        display: none;
+        }
+        .d-contact-md{
+        display: block;
+        }
+        .sec-contact-text {
+            font-size: 14px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF; 
+            margin: 0 5px ;
+        }
+        
+}

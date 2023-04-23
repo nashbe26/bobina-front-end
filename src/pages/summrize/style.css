@@ -1,0 +1,28 @@
+.sidebar-profile-sec{
+    height: 100%;
+    width: 100%;
+    background: #EBF8ED;
+    display:block ;
+    padding-top: 1.5rem;
+        position: relative;
+}
+
+.width-sidebar-profile{
+    width: 7%;
+}
+.width-profile-sec{
+    width: 93%;
+}
+.list-fqa-header{
+    position: absolute;
+    bottom: 5%;
+}
+@media (max-width: 992px) {
+    
+    .width-sidebar-profile{
+    display: none;
+}
+.width-profile-sec{
+    width: 100%;
+}
+}

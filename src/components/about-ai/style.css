@@ -1,0 +1,90 @@
+.ai-text-box{
+    width: 60%;
+}
+.download-box-button{
+    width: 100%;
+}
+.apple-btn{
+    width: 35%;
+    padding:10px;
+    background: #288D69;
+    border-radius: 5px;
+}
+.text-appel{
+    font-size: 16px;
+    line-height: 28px;
+    color: #E9F7FE;
+    line-height: 16px;
+}
+.text-appel-bold{
+    font-size: 24px;
+    line-height: 34px;
+    font-family: mainFontBlack;
+    
+    
+    color: #FFFFFF;
+}
+.adnroid-btn{
+    background: #FFFFFF;
+    border: 2px solid #E2E4E8;
+    border-radius: 5px;
+    width: 35%;
+    padding:10px;
+
+}
+.text-and{
+    font-size: 16px;
+    line-height: 16px;
+/* identical to box height, or 175% */
+
+
+color: #7C8087;
+}
+.text-and-bold{
+    font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+font-family: mainFontBlack;
+color: #1D293F
+}
+.about-ai-sec{
+    position: relative;
+}
+.groups-dots-sec{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.vocab-need-sec-t{
+display: block;
+margin-top: 4rem;
+    position: relative;
+}
+
+.vocab-need-sec-mob{
+display: none;
+}
+
+@media (max-width: 991px) {
+.vocab-need-sec-t{
+    display: none;
+
+}
+
+.vocab-need-sec-mob{
+    display: block;
+}
+.ai-text-box {
+    width: 100%;
+}
+.apple-btn {
+    width: 65%;
+    padding: 10px;
+
+}
+.adnroid-btn {
+    width: 65%;
+    padding: 10px;
+}
+}

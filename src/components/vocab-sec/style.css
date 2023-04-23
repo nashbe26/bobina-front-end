@@ -1,0 +1,98 @@
+.vocab-need-sec{
+    margin-top: 4rem;
+    position: relative;
+}
+.tirangle-box-about{
+    position: absolute;
+    top: -17%;
+    left: 0;
+}
+#custom-text{
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--color-second);
+    margin: 1rem 0;
+    
+}
+#main-text-need{
+    font-size: 48px;
+line-height: 56px;
+/* or 117% */
+font-family: mainFontBlack;
+
+
+color: #1D293F;
+margin: 1.5rem 0;
+}
+.pro-text{
+    background: var(--color-second);
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 6px;
+}
+#desc-text-need{
+    font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+color: #7C8087
+}
+#list-custom-text{
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    margin: 1rem 0;
+    
+    color: #1D293F;
+}
+.box-sec-vocab{
+    width: 85%;
+
+}
+.d-flex-vocab{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.display-mob{
+    display: block;
+}
+.display-t-mob{
+    display: none;
+}
+@media (max-width: 992px) {
+    .d-flex-vocab{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-sec-vocab{
+        width: 95%;
+    
+    }
+    #list-custom-text {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0.5rem 0;
+        color: #1D293F;
+    }
+    #main-text-need {
+        font-size: 30px;
+        line-height: 56px;
+
+    }
+    #desc-text-need {
+        font-size: 16px;
+        line-height: 32px;
+        color: #7C8087;
+    }
+    
+    .display-mob{
+        display: none;
+    }
+    .display-t-mob{
+        display: block;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+.text-exlo-lang{
+    color: white;
+    background: linear-gradient(100.7deg, #0E243A -24.19%, #288D69 111.94%);
+border-radius: 7px;
+width: 100%;
+text-align: center;
+text-decoration: none;
+padding: 0.75rem 0;
+display: block;
+}
+.btn-explore-aln{
+    width: 20%;
+}
